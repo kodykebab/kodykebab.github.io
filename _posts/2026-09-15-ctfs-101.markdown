@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Web Security 101"
+date:   2026-09-15 00:02:11 +0530
+categories: cybersec ctf web-security
+---
+# Web Security 101
+
+Web Security could be a pretty good way to start with cyber security because almost every person has a basic understanding of how web apps work so it become rather intuitive to connect these pieces together. Plus, web development is one of the first things you'll learn and **a good developer makes a good hacker and a good hacker makes a good developer.** 
+
+## Understanding Networking
+
+Networking is the connective tissue for the internet, and hence web applications. So, it would definitely be a good idea to gain a basic understanding of it. 
+
+- [Networking Fundamentals](https://www.youtube.com/watch?v=6G14NrjekLQ)
+- [Networking Explained](https://www.youtube.com/watch?v=d-zn-wv4Di8)
+
+Try to gain more of an intuition rather than blurting out buzzwords and theory. 
+
+## Understanding How a Web App Works
+
+Next, get a basic idea of what happens when you interact with a web application.
+
+- [How the Web Works](https://www.youtube.com/watch?v=jmgsgjPn1vs)
+- [Web Application Basics](https://www.youtube.com/watch?v=C_gZb-rNcVQ)
+
+Try to understand things like HTTP requests and responses, cookies, sessions, parameters, headers, and how the browser communicates with a server. It'd be a pretty good idea to approach these things like an annoying kid who wants to find flaws in everything and be a menace to society. If you feel like something feels wrong, senseless or **breakable?**, take note of it. 
+
+## Getting Into Vulnerabilities
+
+Let's start with some basic vulnerabilities that have been present since the dawn of time. 
+
+### XSS — Cross-Site Scripting
+
+A good starting point is XSS:
+
+- [XSS Introduction](https://www.youtube.com/watch?v=Q2mGcbkX550)
+- [XSS Explained](https://www.youtube.com/watch?v=8GwVBpTgR2c)
+- [Another XSS Explanation](https://www.youtube.com/watch?v=EoaDgUgS6QA)
+
+There are plenty of other vulnerabilities you'll eventually encounter. This [playlist](https://www.youtube.com/playlist?list=PLI_rLWXMqpSl_TqX9bbisW-d7tDqcVvOJ) is useful for getting familiar with them. Also, do read the OWASP Top 10 list of vulnerabilities. 
+
+## Don't Worry If You Don't Understand Everything
+
+Some of the videos above might mention concepts that don't make complete sense at first. That's normal.
+
+Try to understand as much as you can, and keep a list of terms or concepts you don't understand. Come back to them later once you've encountered them in a challenge.
+
+## TryHackMe
+
+Now that you have somewhat of a basic idea about how things are, try some hands-on finger painting activities:
+
+- [HTTP in Detail](https://tryhackme.com/room/httpindetail)
+- [Web Application Basics](https://tryhackme.com/room/webapplicationbasics)
+- [Web Security Essentials](https://tryhackme.com/room/websecurityessentials)
+
+I would highly encourage you to do other free rooms as well for at least the first month of your journey into cybersecurity. After you are able to do guided rooms easily, go for unguided rooms, and once you can do those easily as well, move on to [HackTheBox](https://www.hackthebox.com/).
+
+## Practice Actual CTF Challenges
+
+I'm pretty sure that you have a decent idea of what a CTF is by now but if you still want to sit through a youtube video about what a CTF is in essence, feel free to watch this [video](https://youtu.be/6vj96QetfTg).
+
+Now that you have been babysat and spoon-fed, throw yourself into the pool: 
+
+### OverTheWire — Natas
+
+[Natas](https://overthewire.org/wargames/natas/) is specifically focused on web security and is a great introduction to solving web-based challenges.
+
+### PicoCTF
+
+[PicoCTF](https://play.picoctf.org/) has challenges across a bunch of different categories and is useful once you want to branch out beyond web.
+
+## The Resource I'd Recommend Most
+
+[PortSwigger Web Security Academy](https://portswigger.net/web-security/all-topics) is one of the best resources for learning web security while actually practicing it.
+
+It covers vulnerabilities from the basics all the way to more advanced topics, with interactive labs for most of them.
+
+---
